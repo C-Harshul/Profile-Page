@@ -1,4 +1,5 @@
 import { Github, Linkedin, Mail, ArrowDown } from 'lucide-react';
+import profileImage from '../assets/profile.jpg';
 
 function Hero() {
   return (
@@ -6,7 +7,7 @@ function Hero() {
       <div className="max-w-7xl mx-auto px-6 py-20 text-center">
         <div className="mb-8 inline-block">
           <img
-            src={`${import.meta.env.BASE_URL}c7bc760d-bf47-4efe-ae91-80c587c3ee1e.jpg`}
+            src={profileImage}
             alt="Harshul Chandrashekhar"
             className="w-48 h-48 rounded-full object-cover shadow-2xl mx-auto border-4 border-white"
           />
