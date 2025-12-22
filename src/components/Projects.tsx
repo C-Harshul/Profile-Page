@@ -26,7 +26,7 @@ const projects = [
     title: 'Chidori',
     role: 'Backend and Hardware Development',
     period: 'Apr - May 2021',
-    link: 'https://nimble-dieffenbachia-d945cc.netlify.app',
+    link: 'https://nimble-dieffenbachia-d945ce.netlify.app/',
     description: [
       'Improved emergency response by designing a gesture-based wearable and Flutter app for seniors, delivering contextual medical alerts',
       'Increased usability by 30% through a customer-first design process and user feedback, leading to a patent submission',
