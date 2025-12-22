@@ -45,7 +45,7 @@ function Hero() {
             <Github size={24} />
           </a>
           <a
-            href="http://98.85.81.4:8080/"
+            href="http://app.harshulc.com/chat.html"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 bg-slate-900 text-white rounded-full font-medium hover:bg-slate-700 transition-all duration-300 hover:scale-105 shadow-lg"
