@@ -37,11 +37,13 @@ function About() {
                   </div>
                 </div>
                 <p className="text-lg text-slate-600 mb-3 font-medium">Master of Engineering Management (MEM)</p>
-                <div className={`mb-3 ${expandedDartmouth ? 'block' : 'hidden md:block'}`}>
-                  <p className="text-slate-700 leading-relaxed">
-                    Through a collaborative program between the Tuck School of Business and Thayer School of Engineering, I am learning to translate technical skills into product and business decisions positioning myself to lead the development of user-centric products that deliver customer value while driving sustainable growth.
-                  </p>
-                </div>
+                {expandedDartmouth && (
+                  <div className="mb-3">
+                    <p className="text-slate-700 leading-relaxed">
+                      Through a collaborative program between the Tuck School of Business and Thayer School of Engineering, I am learning to translate technical skills into product and business decisions positioning myself to lead the development of user-centric products that deliver customer value while driving sustainable growth.
+                    </p>
+                  </div>
+                )}
                 <p className="text-slate-600 leading-relaxed">
                   Coursework: Marketing, Technology Assessment, Statistics, Pricing Strategy, Optimisation Methods & Analytics, Operations Research
                 </p>
@@ -74,11 +76,13 @@ function About() {
                 </div>
                 <p className="text-lg text-slate-600 mb-2 font-medium">Bachelor of Technology in Electronics and Communication Engineering</p>
                 <p className="text-slate-600 mb-2"><strong>GPA: 4.0</strong></p>
-                <div className={`mb-3 ${expandedVIT ? 'block' : 'hidden md:block'}`}>
-                  <p className="text-slate-700 leading-relaxed">
-                    During my time at VIT, I developed a strong technical foundation across engineering and computer science, gaining hands-on experience engineering products through projects and hackathons.
-                  </p>
-                </div>
+                {expandedVIT && (
+                  <div className="mb-3">
+                    <p className="text-slate-700 leading-relaxed">
+                      During my time at VIT, I developed a strong technical foundation across engineering and computer science, gaining hands-on experience engineering products through projects and hackathons.
+                    </p>
+                  </div>
+                )}
                 <p className="text-slate-600 leading-relaxed">
                   Coursework: Artificial Intelligence, Data Structures and Algorithm, Consumer Behaviour, Cryptography, IOT System Design
                 </p>
