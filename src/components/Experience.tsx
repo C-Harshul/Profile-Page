@@ -96,7 +96,7 @@ function Experience() {
                     </div>
                     <p className="text-lg text-slate-600 mb-3 font-medium">{exp.title}</p>
                     {exp.description && (
-                      <p className="text-slate-700 leading-relaxed mb-3">
+                      <p className={`text-slate-700 leading-relaxed mb-3 ${isExpanded ? 'block' : 'hidden md:block'}`}>
                         {exp.description}
                       </p>
                     )}

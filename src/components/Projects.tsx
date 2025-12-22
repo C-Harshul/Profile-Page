@@ -102,7 +102,7 @@ function Projects() {
                 <p className="text-slate-600 text-sm mb-3">{project.period}</p>
 
                 {project.displayText && (
-                  <p className="text-slate-700 text-sm leading-relaxed mb-3">
+                  <p className={`text-slate-700 text-sm leading-relaxed mb-3 ${isExpanded ? 'block' : 'hidden md:block'}`}>
                     {project.displayText}
                   </p>
                 )}
