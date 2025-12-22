@@ -13,11 +13,11 @@ function Hero() {
           />
         </div>
 
-        <h1 className="text-6xl font-bold text-slate-900 mb-4 animate-fade-in">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-4 animate-fade-in">
           Harshul Chandrashekhar
         </h1>
 
-        <p className="text-2xl text-slate-600 mb-8 max-w-3xl mx-auto leading-relaxed">
+        <p className="text-lg sm:text-xl md:text-2xl text-slate-600 mb-8 max-w-3xl mx-auto leading-relaxed px-4">
           Product Builder with strong cloud and AI-infrastructure background, focused on AI adoption and workflow automation
         </p>
 
