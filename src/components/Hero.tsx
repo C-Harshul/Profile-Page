@@ -20,7 +20,7 @@ function Hero() {
           Product Builder with strong cloud and AI-infrastructure background, focused on AI adoption and workflow automation
         </p>
 
-        <div className="flex justify-center gap-6 mb-12">
+        <div className="flex justify-center gap-4 mb-12 flex-wrap items-center">
           <a
             href="https://linkedin.com/in/Harshul-Chandrasekhar"
             target="_blank"
@@ -42,6 +42,14 @@ function Hero() {
             className="p-3 bg-slate-900 text-white rounded-full hover:bg-slate-700 transition-all duration-300 hover:scale-110"
           >
             <Github size={24} />
+          </a>
+          <a
+            href="http://98.85.81.4:8080/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 bg-slate-900 text-white rounded-full font-medium hover:bg-slate-700 transition-all duration-300 hover:scale-105 shadow-lg"
+          >
+            Chat with Me
           </a>
         </div>
 
