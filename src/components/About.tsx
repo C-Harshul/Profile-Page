@@ -22,7 +22,7 @@ function About() {
                 <img src={dartmouthLogo} alt="Dartmouth College" className="w-10 h-10 object-contain" />
               </div>
               <div className="flex-1">
-                <div className="flex justify-between items-start mb-2">
+                <div className="flex justify-between items-start mb-2 flex-wrap gap-2">
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold text-slate-900">Dartmouth College</h3>
                     <p className="text-lg text-slate-700 mt-1">Hanover, NH, USA</p>
@@ -60,7 +60,7 @@ function About() {
                 <img src={vitLogo} alt="VIT" className="w-10 h-10 object-contain" />
               </div>
               <div className="flex-1">
-                <div className="flex justify-between items-start mb-2">
+                <div className="flex justify-between items-start mb-2 flex-wrap gap-2">
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold text-slate-900">Vellore Institute of Technology</h3>
                     <p className="text-lg text-slate-700 mt-1">Vellore, India</p>
