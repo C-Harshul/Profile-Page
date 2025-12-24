@@ -37,7 +37,7 @@ function Hero() {
             <Mail size={24} />
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/C-Harshul"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 bg-slate-900 text-white rounded-full hover:bg-slate-700 transition-all duration-300 hover:scale-110"
